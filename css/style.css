@@ -8963,6 +8963,13 @@ header {
   -webkit-box-shadow: 1px 1px 12px #edeff2;
   box-shadow: 1px 1px 12px #edeff2;
   z-index: 9; }
+  header .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
   header .main-menu .wrap-menu {
     display: -webkit-flex;
     display: -moz-flex;
@@ -9116,6 +9123,11 @@ h2 {
 
 .swiper-talent {
   width: 100%; }
+  .swiper-talent .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px; }
+  .swiper-talent .swiper-pagination-bullet-active {
+    background: #518bf7; }
   .swiper-talent .swiper-slide {
     background-position: center;
     -webkit-background-size: cover;

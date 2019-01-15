@@ -28,7 +28,18 @@
 			</div>
 			<div class="col-md-7">
 				<div class="aboutus-photo-main">
-					<img src="http://foton.mikado-themes.com/wp-content/uploads/2018/06/main-home-img-6.jpg" alt="">
+					<div class="scrollme">
+						<div 
+				      class="animateme"
+				      data-when="enter"
+				      data-from="1"
+				      data-to="0"
+				      data-easing="easeinout"
+				      data-translatey="60"
+				    >
+							<img src="http://foton.mikado-themes.com/wp-content/uploads/2018/06/main-home-img-6.jpg" alt="">
+						</div>
+					</div>
 				</div>
 				<div class="aboutus-photo">
 					<img src="http://foton.mikado-themes.com/wp-content/uploads/2018/06/main-home-img-7.jpg" alt="">

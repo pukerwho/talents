@@ -22,9 +22,6 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 d-flex align-items-center justify-content-between">
-          <div class="logo d-flex align-items-center">
-            <img src="<?php bloginfo('template_url')?>/img/logo.png" alt="">
-          </div>
           <nav class="d-flex ">
             <div class="main-menu mx-auto">
               <?php wp_nav_menu( array(
@@ -47,6 +44,14 @@
               )); ?>
             </div>
           </nav>
+          <div class="logo d-flex align-items-center">
+            <img src="<?php bloginfo('template_url')?>/img/logo.png" alt="">
+          </div>
+          <div class="right-menu">
+            <div class="buttons-btn-red">
+              Request Talent Now
+            </div>
+          </div>
         </div>
       </div>
     </div>

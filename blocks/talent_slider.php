@@ -18,7 +18,7 @@
 				      </div>
 				      <div class="detail">
 				        <h3>Marie Edwards</h3>
-				        <span>Web Designer</span>
+				        <span>Model</span>
 				      </div>	
 			    	</div>
 			    </div>
@@ -29,7 +29,7 @@
 				      </div>
 				      <div class="detail">
 				        <h3>Kelly Woods</h3>
-				        <span>Web Designer</span>
+				        <span>Model</span>
 				      </div>
 			      </div>
 			    </div>
@@ -40,7 +40,7 @@
 				      </div>
 				      <div class="detail">
 				        <h3>Roger Rice</h3>
-				        <span>Web Designer</span>
+				        <span>Model</span>
 				      </div>
 			    	</div>
 			    </div>
@@ -50,7 +50,7 @@
 			      </div>
 			      <div class="detail">
 			        <h3>Jessica Garcia</h3>
-			        <span>Web Designer</span>
+			        <span>Model</span>
 			      </div>
 			    </div>
 			    <div class="swiper-slide">
@@ -59,7 +59,7 @@
 			      </div>
 			      <div class="detail">
 			        <h3>Sean Adams</h3>
-			        <span>Web Designer</span>
+			        <span>Model</span>
 			      </div>
 			    </div>
 			    <div class="swiper-slide">
@@ -68,7 +68,7 @@
 			      </div>
 			      <div class="detail">
 			        <h3>Crystal Davidson</h3>
-			        <span>Web Designer</span>
+			        <span>Model</span>
 			      </div>
 			    </div>
 			  </div>
