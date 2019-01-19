@@ -99,6 +99,21 @@ function loadmore_ajax_handler(){
 add_action('wp_ajax_loadmore', 'loadmore_ajax_handler'); 
 add_action('wp_ajax_nopriv_loadmore', 'loadmore_ajax_handler'); 
 
+function create_post_type() {
+    register_post_type( 'services',
+        array(
+          'labels' => array(
+            'name' => __( 'Services' ),
+            'singular_name' => __( 'Service' )
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'hierarchical' => true,
+          'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+        )
+    );
+}
+add_action( 'init', 'create_post_type' );
 
 function add_theme_menu_item() {
     add_menu_page("Theme Settings", "Theme Settings", "manage_options", "theme-settings", "theme_settings_page", null, 99);

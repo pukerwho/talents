@@ -5,7 +5,7 @@
 				<div class="aboutus-text">
 					<h2 class="mb-4">About Us</h2>
 					<div class="lead mb-4">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit alias aliquid incidunt molestiae eos reiciendis quo distinctio eveniet minus error, asperiores numquam, eius cum non.
+						We provide top employees for exclusive brands. Our team help you to compete and get companies brand ahead in the minds of consumers in social media and on public. Besides, we don’t create a product, we create a culture, where impression, quality, and beauty became our main values. Call now to request event staff or advertising.
 					</div>
 					<div class="aboutus-grid">
 						<div class="aboutus-item">
