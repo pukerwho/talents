@@ -14,16 +14,38 @@ $(window).scroll(function(){
   }
 })
 
-var swiperWelcome = new Swiper('.swiper-welcome', {
-  slidesPerView: 3,
-  spaceBetween: 35,
-  loop: true,
-  loopedSlides: 16,
-  speed: 700,
-  autoplay: true,
-  autoplayDisableOnInteraction: true,
-  centeredSlides: true
-});
+// var swiperWelcome = new Swiper('.swiper-welcome-slider', {
+//   slidesPerView: 1,
+//   spaceBetween: 35,
+//   loop: true,
+//   speed: 3000,
+//   autoplay: true,
+//   autoplayDisableOnInteraction: true,
+//   centeredSlides: true,
+//   effect: 'fade',
+// });
+
+var timerId = setInterval(function() {
+  $('video').each(function(){
+    if ($(this).is(":in-viewport")) {
+      $(this)[0].play();
+    } else {
+      $(this)[0].pause();
+    }
+  })
+}, 500);
+
+var setId = setTimeout(function() {
+  $('.hero-slider').slick({
+    slidesToShow: 1,
+    prevArrow: $(".themes-carousel-controls .prev"),
+    nextArrow: $(".themes-carousel-controls .next"),
+    autoplay: true,
+    dots: false,
+    autoplaySpeed: 5000,
+    fade: true
+  });
+}, 500);
 
 var talentSwiper = new Swiper('.swiper-talent', {
   effect: 'coverflow',
