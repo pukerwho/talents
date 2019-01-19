@@ -15,13 +15,15 @@
 	          $custom_query = new WP_Query( array( 'post_type' => 'services', 'orderby' => 'menu_order' ) );
 	          if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 				    <div class="swiper-slide">
-				    	<div class="picture">
-				    		<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-				      </div>
-				      <div class="detail">
-				        <h3><?php the_title(); ?></h3>
-				        <!-- <span>Model</span> -->
-				      </div>
+					    <a href="<?php the_permalink(); ?>">	
+					    	<div class="picture">
+					    		<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+					      </div>
+					      <div class="detail">
+					        <h3><?php the_title(); ?></h3>
+					        <!-- <span>Model</span> -->
+					      </div>
+					    </a>
 				    </div>
 				  <?php endwhile; endif; ?>
 			  </div>
