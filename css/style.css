@@ -9077,9 +9077,6 @@ h2 {
 
 .welcome {
   position: relative;
-  /*background: url('../img/welcome.jpg');
-  -webkit-background-size: cover;
-  background-size: cover;*/
   height: 100vh;
   /*.swiper-slide {
   	padding: 90px 0px;
