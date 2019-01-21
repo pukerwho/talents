@@ -48,7 +48,7 @@
             <img src="<?php bloginfo('template_url')?>/img/logo.png" alt="">
           </div>
           <div class="right-menu">
-            <div class="buttons-btn-red">
+            <div class="buttons-btn-red" data-toggle="modal" data-target="#hireModal">
               Request Talent Now
             </div>
           </div>

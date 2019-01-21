@@ -20,7 +20,7 @@
 									<div class="buttons-text lead mb-4">
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ratione?
 									</div>
-									<div class="buttons-btn-blue">
+									<div class="buttons-btn-red" data-toggle="modal" data-target="#hireModal">
 										Hire
 									</div>
 								</div>
@@ -44,7 +44,7 @@
 									<div class="buttons-text lead mb-4">
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ratione?
 									</div>
-									<div class="buttons-btn-red">
+									<div class="buttons-btn-blue" data-toggle="modal" data-target="#joinModal">
 										Join Us
 									</div>
 								</div>

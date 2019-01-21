@@ -23,6 +23,18 @@ if( !isset( $content_width ) ) {
     // @TODO : edit the value for your own specifications
     $content_width = 960;
 }
+
+/**
+ * Get the bootstrap!
+ * (Update path to use cmb2 or CMB2, depending on the name of the folder.
+ * Case-sensitive is important on some systems.)
+ */
+// require_once __DIR__ . '/inc/cmb2/init.php';
+// require_once __DIR__ . '/inc/options-pages-with-tabs-and-submenus/options-pages-with-tabs-and-submenus.php';
+require_once get_template_directory() . '/inc/carbon-fields/carbon-fields-plugin.php';
+require_once get_template_directory() . '/inc/custom-fields/settings-meta.php';
+
+
 // Register menus, use wp_nav_menu() to display menu to your template ( cf : http://codex.wordpress.org/Function_Reference/wp_nav_menu )
 register_nav_menus( array(
     'main_menu' => __( 'Menu principal', 'minimal-blank-theme' ) //@TODO : change i18n domain name to yours
@@ -127,6 +139,12 @@ function add_theme_menu_item() {
 }
 
 add_action("admin_menu", "add_theme_menu_item");
+
+function my_custom_upload_mimes($mimes = array()) {
+    $mimes['svg'] = "image/svg+xml";
+    return $mimes;
+}
+add_action('upload_mimes', 'my_custom_upload_mimes');
 
 function theme_settings_page() {
     include 'form-file.php';
