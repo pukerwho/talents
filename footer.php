@@ -61,7 +61,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <?php echo do_shortcode('[contact-form-7 id="25" title="Hire"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="37" title="Hire"]'); ?>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <?php echo do_shortcode('[contact-form-7 id="25" title="Hire"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="38" title="Join"]'); ?>
           </div>
         </div>
       </div>
