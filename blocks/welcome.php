@@ -39,20 +39,20 @@
 	</div> -->
 	<section class="hero-slider">
     <div class="hero-slide slider_1">
-    	<video class="slider-video" autoplay muted loop>
+    	<video class="slider-video" onloadeddata="this.play();" playsinline autoplay="autoplay" muted mute loop>
         <source src="<?php bloginfo('template_url'); ?>/videos/video1.mp4" type="video/mp4">
-        <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
-        <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg">
+        <source src="<?php bloginfo('template_url'); ?>/videos/video1.webm" type="video/webm">
+        <source src="<?php bloginfo('template_url'); ?>/videos/video1.ogv" type="video/ogg">
       </video>
     	<div class="swiper-welcome-text slide-content text-center">
 				<h2>Step into the game</h2>
 		  </div>
     </div>
     <div class="hero-slide slider_2">
-      <video class="slider-video" autoplay muted loop>
+      <video class="slider-video" onloadeddata="this.play();" autoplay muted loop>
         <source src="<?php bloginfo('template_url'); ?>/videos/video2.mp4" type="video/mp4">
-        <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
-        <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg">
+        <source src="<?php bloginfo('template_url'); ?>/videos/video2.webm" type="video/webm">
+        <source src="<?php bloginfo('template_url'); ?>/videos/video2.ogv" type="video/ogg">
       </video>
     	<div class="swiper-welcome-text">
     		<div class="slide-content">
@@ -64,10 +64,10 @@
 		  </div>
     </div>
     <div class="hero-slide slider_3">
-      <video class="slider-video" autoplay muted loop>
+      <video class="slider-video" onloadeddata="this.play();" autoplay muted loop>
         <source src="<?php bloginfo('template_url'); ?>/videos/video3.mp4" type="video/mp4">
-        <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
-        <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg">
+        <source src="<?php bloginfo('template_url'); ?>/videos/video3.webm" type="video/webm">
+        <source src="<?php bloginfo('template_url'); ?>/videos/video3.ogv" type="video/ogg">
       </video>
     	<div class="swiper-welcome-text slide-content text-center">
 				<h2>Take advantages of ElitePromo</h2>

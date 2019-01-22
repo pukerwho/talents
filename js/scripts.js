@@ -25,27 +25,15 @@ $(window).scroll(function(){
 //   effect: 'fade',
 // });
 
-var timerId = setInterval(function() {
-  $('video').each(function(){
-    if ($(this).is(":in-viewport")) {
-      $(this)[0].play();
-    } else {
-      $(this)[0].pause();
-    }
-  })
-}, 500);
-
-var setId = setTimeout(function() {
-  $('.hero-slider').slick({
-    slidesToShow: 1,
-    prevArrow: $(".themes-carousel-controls .prev"),
-    nextArrow: $(".themes-carousel-controls .next"),
-    autoplay: true,
-    dots: false,
-    autoplaySpeed: 5000,
-    fade: true
-  });
-}, 500);
+$('.hero-slider').slick({
+  slidesToShow: 1,
+  prevArrow: $(".themes-carousel-controls .prev"),
+  nextArrow: $(".themes-carousel-controls .next"),
+  autoplay: true,
+  dots: false,
+  autoplaySpeed: 5000,
+  fade: true
+});
 
 var talentSwiper = new Swiper('.swiper-talent', {
   effect: 'coverflow',
