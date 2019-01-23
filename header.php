@@ -17,7 +17,6 @@
 </head>
 <body <?php echo body_class(); ?>>
   <!-- <div class="preloader"></div> -->
-  
   <header id="header" role="banner">
     <div class="container-fluid">
       <div class="row">
