@@ -22,7 +22,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 d-flex align-items-center justify-content-between">
-          <nav class="d-flex ">
+          <nav class="d-flex pc-show">
             <div class="main-menu mx-auto">
               <?php wp_nav_menu( array(
                 'theme_location'  => '',
@@ -47,7 +47,32 @@
           <div class="logo d-flex align-items-center">
             <img src="<?php echo carbon_get_theme_option( 'crb_common_logo' ); ?>" alt="">
           </div>
-          <div class="right-menu">
+          <div class="mobile-show p-absolute right-15">
+            <div class="toogle-menu"></div>
+            <div class="slide-menu">
+              <div class="menu">
+                <?php wp_nav_menu( array(
+                  'theme_location'  => '',
+                  'menu'            => 'Navigation', 
+                  'container'       => 'div', 
+                  'container_class' => '', 
+                  'container_id'    => '',
+                  'menu_class'      => 'mainmenu_wrap', 
+                  'menu_id'         => '',
+                  'echo'            => true,
+                  'fallback_cb'     => 'wp_page_menu',
+                  'before'          => '',
+                  'after'           => '',
+                  'link_before'     => '',
+                  'link_after'      => '',
+                  'items_wrap'      => '<div class="wrap-menu">%3$s</div>',
+                  'depth'           => 0,
+                  'walker'          => '',
+                )); ?>
+              </div>
+            </div>
+          </div>
+          <div class="right-menu pc-show">
             <div class="buttons-btn-red" data-toggle="modal" data-target="#hireModal">
               Request Talent Now
             </div>
