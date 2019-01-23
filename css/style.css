@@ -9097,9 +9097,11 @@ h2 {
 
 form input {
   width: 100%;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  z-index: 1050; }
 form label, form textarea {
-  width: 100%; }
+  width: 100%;
+  z-index: 1050; }
 form [type="submit"] {
   display: inline-block;
   position: relative;
@@ -10460,6 +10462,20 @@ button.swiper-pagination-bullet {
       padding-bottom: 1rem; }
     .slide-menu_active a {
       font-size: 2rem; }
+
+  .hero-slide {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .hero-slide video {
+      position: absolute;
+      top: 0; }
+
+  .swiper-welcome-text {
+    position: relative; }
+    .swiper-welcome-text h2 {
+      font-size: 3rem; }
 
   .buttons {
     margin-bottom: 3rem; }
