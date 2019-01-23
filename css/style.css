@@ -9648,8 +9648,8 @@ video {
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s; }
-    .clients-item:hover img {
-      width: 100%; }
+  .clients-item img {
+    width: 100%; }
 
 .slick-slider {
   position: relative;
