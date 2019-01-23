@@ -10485,6 +10485,8 @@ button.swiper-pagination-bullet {
 
   .aboutus-grid {
     margin-bottom: 3rem; }
+  .aboutus-photo {
+    right: 0; }
 
   .clients-grid {
     -ms-grid-columns: 50% [2];
