@@ -45,7 +45,7 @@
             </div>
           </nav>
           <div class="logo d-flex align-items-center">
-            <img src="<?php bloginfo('template_url')?>/img/logo.png" alt="">
+            <img src="<?php echo carbon_get_theme_option( 'crb_common_logo' ); ?>" alt="">
           </div>
           <div class="right-menu">
             <div class="buttons-btn-red" data-toggle="modal" data-target="#hireModal">

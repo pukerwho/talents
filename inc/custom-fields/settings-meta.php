@@ -6,8 +6,11 @@ use Carbon_Fields\Field;
 add_action( 'carbon_fields_register_fields', 'crb_attach_theme_options' );
 function crb_attach_theme_options() {
   Container::make( 'theme_options', 'Options' )
+    ->add_tab( __('Common'), array(
+        Field::make( 'image', 'crb_common_logo', 'Логотип' )->set_value_type( 'url'),
+    ) )
     ->add_tab( __('About Us'), array(
-    		Field::make( 'text', 'crb_aboutus_title', 'About Us Title' ),
+    	Field::make( 'text', 'crb_aboutus_title', 'About Us Title' ),
         Field::make( 'textarea', 'crb_aboutus_text', 'About Us Text' ),
         Field::make( 'complex', 'crb_aboutus_items' )
 		    	->add_fields( array(

@@ -49,7 +49,7 @@
 		  </div>
     </div>
     <div class="hero-slide slider_2">
-      <video class="slider-video" onloadeddata="this.play();" autoplay muted loop>
+      <video class="slider-video" onloadeddata="this.play();" playsinline autoplay="autoplay" muted loop>
         <source src="<?php bloginfo('template_url'); ?>/videos/video2.mp4" type="video/mp4">
         <source src="<?php bloginfo('template_url'); ?>/videos/video2.webm" type="video/webm">
         <source src="<?php bloginfo('template_url'); ?>/videos/video2.ogv" type="video/ogg">
@@ -64,7 +64,7 @@
 		  </div>
     </div>
     <div class="hero-slide slider_3">
-      <video class="slider-video" onloadeddata="this.play();" autoplay muted loop>
+      <video class="slider-video" onloadeddata="this.play();" playsinline autoplay="autoplay" muted loop>
         <source src="<?php bloginfo('template_url'); ?>/videos/video3.mp4" type="video/mp4">
         <source src="<?php bloginfo('template_url'); ?>/videos/video3.webm" type="video/webm">
         <source src="<?php bloginfo('template_url'); ?>/videos/video3.ogv" type="video/ogg">

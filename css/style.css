@@ -9639,7 +9639,8 @@ video {
   -ms-grid-columns: 25% [4];
   grid-template-columns: repeat(4, 25%); }
 .clients-item {
-  opacity: 0.5; }
+  opacity: 0.5;
+  margin-bottom: 2rem; }
   .clients-item:hover {
     -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
     box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
@@ -9647,6 +9648,8 @@ video {
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     transition: all 0.4s; }
+    .clients-item:hover img {
+      width: 100%; }
 
 .slick-slider {
   position: relative;
