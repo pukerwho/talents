@@ -10,10 +10,10 @@
     					<?php echo carbon_get_theme_option( 'crb_footer_description' ); ?>
     				</div>
     				<div class="social-icons">
-    					<a href="<?php echo carbon_get_theme_option( 'crb_contact_facebook' ); ?>"><li>
+    					<a href="<?php echo carbon_get_theme_option( 'crb_contact_facebook' ); ?>" target="_blank"><li>
     						<i class="fab fa-facebook-f"></i>
     					</li></a>
-    					<a href="<?php echo carbon_get_theme_option( 'crb_contact_instagram' ); ?>"><li>
+    					<a href="<?php echo carbon_get_theme_option( 'crb_contact_instagram' ); ?>" target="_blank"><li>
     						<i class="fab fa-instagram"></i>
     					</li></a>
     				</div>
