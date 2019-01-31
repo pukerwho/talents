@@ -10,32 +10,34 @@
     					<?php echo carbon_get_theme_option( 'crb_footer_description' ); ?>
     				</div>
     				<div class="social-icons">
-    					<li>
+    					<a href="<?php echo carbon_get_theme_option( 'crb_contact_facebook' ); ?>"><li>
     						<i class="fab fa-facebook-f"></i>
-    					</li>
-    					<li>
+    					</li></a>
+    					<a href="<?php echo carbon_get_theme_option( 'crb_contact_instagram' ); ?>"><li>
     						<i class="fab fa-instagram"></i>
-    					</li>
+    					</li></a>
     				</div>
     			</div>
-    			<div class="col-md-3">
-    				<h3 class="mb-4">Contact Info</h3>
-    				<div class="contact-info">
-    					<div class="mb-3">
-    						<i class="fas fa-map-marker-alt mr-3"></i>
-    						<?php echo carbon_get_theme_option( 'crb_contact_address' ); ?>
-    					</div>
-    					<div class="mb-3">
-    						<i class="far fa-envelope mr-3"></i>
-    						<a href="mailto:<?php echo carbon_get_theme_option( 'crb_contact_email' ); ?>"><?php echo carbon_get_theme_option( 'crb_contact_email' ); ?></a>
-    					</div>
-    					<div class="mb-3">
-    						<i class="fas fa-phone mr-3"></i>
-    						<?php echo carbon_get_theme_option( 'crb_contact_phone' ); ?>
-    					</div>
-    				</div>
+    			<div class="col-md-4">
+                    <div class="bg-before">
+                        <h3 class="mb-4">Contact Info</h3>
+                        <div class="contact-info">
+                            <div class="mb-3">
+                                <i class="fas fa-map-marker-alt mr-3"></i>
+                                <?php echo carbon_get_theme_option( 'crb_contact_address' ); ?>
+                            </div>
+                            <div class="mb-3">
+                                <i class="far fa-envelope mr-3"></i>
+                                <a href="mailto:<?php echo carbon_get_theme_option( 'crb_contact_email' ); ?>"><?php echo carbon_get_theme_option( 'crb_contact_email' ); ?></a>
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-phone mr-3"></i>
+                                <?php echo carbon_get_theme_option( 'crb_contact_phone' ); ?>
+                            </div>
+                        </div>
+                    </div>
     			</div>
-    			<div class="col-md-6">
+    			<div class="col-md-5">
     				<h3 class="mb-4"><?php echo carbon_get_theme_option( 'crb_footer_support_title' ); ?></h3>
     				<div class="lead mb-3"><?php echo carbon_get_theme_option( 'crb_footer_support_desc' ); ?></div>
     				<div>
