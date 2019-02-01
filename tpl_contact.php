@@ -13,6 +13,7 @@ Template Name: Contact
 	</div>
 
 	<div class="container py-5">
+		<!-- begin p_contact__welcome -->
 		<div class="p_contact__welcome">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -24,22 +25,22 @@ Template Name: Contact
 						<a href="mailto:<?php echo carbon_get_theme_option( 'crb_contact_email' ); ?>" class="p_contact__link__grey"><?php echo carbon_get_theme_option( 'crb_contact_email' ); ?></a>	
 					</div>
 					<div class="p_contact__buttons">
-						<div>
-							<div class="buttons-btn-blue mr-3" data-toggle="modal" data-target="#hireModal">
+						<div class="buttons-btn-blue mr-3" data-toggle="modal" data-target="#hireModal">
 							Hire
 						</div>
 						<div class="buttons-btn-red" data-toggle="modal" data-target="#joinModal">
 							Join Us
 						</div>
-						</div>
 					</div>
 				</div>
 			</div>	
 		</div>
+		<!-- end p_contact__welcome -->
+		<!-- begin p_contact__footer mb-5 -->
 		<div class="p_contact__footer mb-5">
 			<div class="row justify-content-center">
 				<div class="col-md-6">
-					<div class="p_contact__footer__line">
+					<div class="p_contact__footer__line"></div>
 					<div class="p_contact__footer__lsize text-center py-3">
 						Do you have a question? Write to us!
 					</div>
@@ -49,6 +50,7 @@ Template Name: Contact
 				</div>
 			</div>
 		</div>
+		<!-- end p_contact__footer mb-5 -->
 	</div>
 </div>
 
