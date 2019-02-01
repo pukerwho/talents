@@ -9688,6 +9688,51 @@ video {
   .clients-item img {
     width: 100%; }
 
+.p_contact {
+  overflow: hidden; }
+  .p_contact__welcome {
+    height: 400px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .p_contact__link__msize {
+    font-size: 1.3rem; }
+  .p_contact__link__grey {
+    color: #949dad; }
+  .p_contact__footer__line {
+    width: 100%;
+    height: 2px;
+    background-color: #dde1e9; }
+  .p_contact__footer__lsize {
+    font-size: 1.5rem; }
+  .p_contact__leftpng {
+    position: relative; }
+    .p_contact__leftpng img {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%); }
+  .p_contact__rightpng {
+    position: relative; }
+    .p_contact__rightpng img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      -webkit-transform: translate(53%, -12%) rotate(-15deg);
+      -ms-transform: translate(53%, -12%) rotate(-15deg);
+      transform: translate(53%, -12%) rotate(-15deg); }
+
 .slick-slider {
   position: relative;
   display: block;

@@ -32,7 +32,7 @@
                             </div>
                             <div class="mb-3">
                                 <i class="fas fa-phone mr-3"></i>
-                                <?php echo carbon_get_theme_option( 'crb_contact_phone' ); ?>
+                                <a href="tel:<?php echo carbon_get_theme_option( 'crb_contact_phone' ); ?>"><?php echo carbon_get_theme_option( 'crb_contact_phone' ); ?></a>
                             </div>
                         </div>
                     </div>
