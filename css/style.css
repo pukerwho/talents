@@ -9753,20 +9753,10 @@ video {
     box-shadow: 0px 0px 9px #25243e;
     -webkit-border-radius: 1rem;
     border-radius: 1rem;
-    cursor: pointer;
-    -webkit-transition: -webkit-box-shadow 0.5s;
-    transition: -webkit-box-shadow 0.5s;
-    -o-transition: box-shadow 0.5s;
-    transition: box-shadow 0.5s;
-    transition: box-shadow 0.5s, -webkit-box-shadow 0.5s; }
+    cursor: pointer; }
     .p_services__item:hover {
       -webkit-box-shadow: 0px 0px 2px #25243e;
-      box-shadow: 0px 0px 2px #25243e;
-      -webkit-transition: -webkit-box-shadow 0.5s;
-      transition: -webkit-box-shadow 0.5s;
-      -o-transition: box-shadow 0.5s;
-      transition: box-shadow 0.5s;
-      transition: box-shadow 0.5s, -webkit-box-shadow 0.5s; }
+      box-shadow: 0px 0px 2px #25243e; }
     .p_services__item__img {
       height: 200px; }
       .p_services__item__img img {
