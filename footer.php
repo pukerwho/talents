@@ -41,11 +41,11 @@
     				<h3 class="mb-4"><?php echo carbon_get_theme_option( 'crb_footer_support_title' ); ?></h3>
     				<div class="lead mb-3"><?php echo carbon_get_theme_option( 'crb_footer_support_desc' ); ?></div>
     				<div>
-    					<div class="buttons-btn-blue mr-3" data-toggle="modal" data-target="#hireModal">
-							Hire
+    					<div class="buttons-btn-blue mr-3 mb-3" data-toggle="modal" data-target="#hireModal">
+							<?php echo carbon_get_theme_option( 'crb_buttons_hire' ); ?>
 						</div>
 						<div class="buttons-btn-red" data-toggle="modal" data-target="#joinModal">
-							Join Us
+							<?php echo carbon_get_theme_option( 'crb_buttons_join' ); ?>
 						</div>
     				</div>
     			</div>

@@ -25,11 +25,11 @@ Template Name: Contact
 						<a href="mailto:<?php echo carbon_get_theme_option( 'crb_contact_email' ); ?>" class="p_contact__link__grey"><?php echo carbon_get_theme_option( 'crb_contact_email' ); ?></a>	
 					</div>
 					<div class="p_contact__buttons">
-						<div class="buttons-btn-blue mr-3" data-toggle="modal" data-target="#hireModal">
-							Hire
+						<div class="buttons-btn-blue" data-toggle="modal" data-target="#hireModal">
+							<?php echo carbon_get_theme_option( 'crb_buttons_hire' ); ?>
 						</div>
 						<div class="buttons-btn-red" data-toggle="modal" data-target="#joinModal">
-							Join Us
+							<?php echo carbon_get_theme_option( 'crb_buttons_join' ); ?>
 						</div>
 					</div>
 				</div>

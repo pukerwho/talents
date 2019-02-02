@@ -21,7 +21,7 @@
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ratione?
 									</div>
 									<div class="buttons-btn-red" data-toggle="modal" data-target="#hireModal">
-										Hire
+										<?php echo carbon_get_theme_option( 'crb_buttons_hire' ); ?>
 									</div>
 								</div>
 							</div>
@@ -45,7 +45,7 @@
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ratione?
 									</div>
 									<div class="buttons-btn-blue" data-toggle="modal" data-target="#joinModal">
-										Join Us
+										<?php echo carbon_get_theme_option( 'crb_buttons_join' ); ?>
 									</div>
 								</div>
 							</div>
