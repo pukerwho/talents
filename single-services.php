@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="welcome d-flex align-items-center mb-5" style="height: 600px; background: url(<?php echo get_the_post_thumbnail_url(); ?>)";>
+<div class="welcome d-flex align-items-center mb-5" style="height: 600px; background: url(<?php echo get_the_post_thumbnail_url(); ?>);background-size: cover; background-position: 50%;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
