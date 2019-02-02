@@ -40,7 +40,7 @@ Template Name: Contact
 		<div class="p_contact__footer mb-5">
 			<div class="row justify-content-center">
 				<div class="col-md-6">
-					<div class="p_contact__footer__line"></div>
+					<div class="p_contact__line"></div>
 					<div class="p_contact__footer__lsize text-center py-3">
 						Do you have a question? Write to us!
 					</div>
@@ -51,6 +51,19 @@ Template Name: Contact
 			</div>
 		</div>
 		<!-- end p_contact__footer mb-5 -->
+		<!-- begin p_contact__map -->
+		<div class="p_contact__map">
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div class="p_contact__line"></div>
+					<div class="p_contact__footer__lsize text-center py-3">
+						Our address
+					</div>
+					<?php echo carbon_get_theme_option( 'crb_map' ); ?>
+				</div>
+			</div>
+		</div>
+		<!-- end p_contact__map -->
 	</div>
 </div>
 

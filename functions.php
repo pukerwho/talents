@@ -149,3 +149,8 @@ add_action('upload_mimes', 'my_custom_upload_mimes');
 function theme_settings_page() {
     include 'form-file.php';
 }
+
+add_filter( 'carbon_fields_map_field_api_key', 'crb_get_gmaps_api_key' );
+function crb_get_gmaps_api_key( $key ) {
+    return 'AIzaSyA7ofGxkOMREhswh27U_aOa-eLyzBfyZkI';
+}

@@ -38,7 +38,7 @@ function crb_attach_theme_options() {
         Field::make( 'text', 'crb_contact_phone', 'Contact phone' ),
         Field::make( 'text', 'crb_contact_facebook', 'Contact facebook link' ),
         Field::make( 'text', 'crb_contact_instagram', 'Contact instagram link' ),
-        Field::make( 'map', 'crb_map', 'Google Map' ),
+        Field::make( 'textarea', 'crb_map', 'Google Map' ),
     ) )
     ->add_tab( __('Buttons'), array(
         Field::make( 'text', 'crb_buttons_hire', 'Button text (Hire)' ),
