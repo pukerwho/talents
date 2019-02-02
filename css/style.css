@@ -9008,7 +9008,7 @@ header {
   .sub-menu li {
     position: relative;
     display: block;
-    padding: 0;
+    padding: 0.5rem 0;
     margin: 0;
     z-index: 997; }
 
