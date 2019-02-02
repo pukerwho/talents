@@ -9727,7 +9727,8 @@ video {
       bottom: 0;
       -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
-      transform: translateX(-50%); }
+      transform: translateX(-50%);
+      z-index: -1; }
   .p_contact__rightpng {
     position: relative; }
     .p_contact__rightpng img {
