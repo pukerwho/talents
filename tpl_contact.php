@@ -54,7 +54,7 @@ Template Name: Contact
 		<!-- begin p_contact__map -->
 		<div class="p_contact__map">
 			<div class="row justify-content-center">
-				<div class="col-md-6">
+				<div class="col-md-10">
 					<div class="p_contact__line"></div>
 					<div class="p_contact__footer__lsize text-center py-3">
 						Our address
