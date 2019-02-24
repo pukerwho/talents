@@ -20,7 +20,8 @@
 					    		<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
 					      </div>
 					      <div class="detail">
-					        <h3><?php the_title(); ?></h3>
+					        <h3 class="mb-3"><?php the_title(); ?></h3>
+					        <h4><?php echo carbon_get_the_post_meta('crb_services_description'); ?></h4>
 					        <!-- <span>Model</span> -->
 					      </div>
 					    </a>

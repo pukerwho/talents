@@ -18,7 +18,7 @@
 										Hire models
 									</div>
 									<div class="buttons-text lead mb-4">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ratione?
+										Request the best event ambassador staff, find advertising idea or marketing solution.
 									</div>
 									<div class="buttons-btn-red" data-toggle="modal" data-target="#hireModal">
 										<?php echo carbon_get_theme_option( 'crb_buttons_hire' ); ?>
@@ -42,7 +42,7 @@
 										Join Our Agency
 									</div>
 									<div class="buttons-text lead mb-4">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ratione?
+										Become part of Elite Promo team Press to fill in the form and place your resume.
 									</div>
 									<div class="buttons-btn-blue" data-toggle="modal" data-target="#joinModal">
 										<?php echo carbon_get_theme_option( 'crb_buttons_join' ); ?>

@@ -33,6 +33,7 @@ if( !isset( $content_width ) ) {
 // require_once __DIR__ . '/inc/options-pages-with-tabs-and-submenus/options-pages-with-tabs-and-submenus.php';
 require_once get_template_directory() . '/inc/carbon-fields/carbon-fields-plugin.php';
 require_once get_template_directory() . '/inc/custom-fields/settings-meta.php';
+require_once get_template_directory() . '/inc/custom-fields/services-meta.php';
 
 
 // Register menus, use wp_nav_menu() to display menu to your template ( cf : http://codex.wordpress.org/Function_Reference/wp_nav_menu )
