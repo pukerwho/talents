@@ -5,7 +5,7 @@
 				<div class="col-md-12">
 					<div class="cardblock-grid">
 						<div class="cardblock-img">
-							<img src="https://cdn.thekatagency.com/about.png" alt="">	
+							<img src="<?php bloginfo('template_url') ?>/img/maincard.jpg" alt="">	
 						</div>
 						<div class="cardblock-text px-4">
 							<span>Elite Agency</span> will find the way to promote your brand to perfection.

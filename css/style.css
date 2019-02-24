@@ -9589,6 +9589,8 @@ video {
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover;
+      -o-object-position: top;
+      object-position: top;
       -webkit-border-top-left-radius: 1rem;
       border-top-left-radius: 1rem;
       -webkit-border-bottom-left-radius: 1rem;
@@ -9698,8 +9700,8 @@ video {
 .clients-grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 25% [4];
-  grid-template-columns: repeat(4, 25%); }
+  -ms-grid-columns: 20% [5];
+  grid-template-columns: repeat(5, 20%); }
 .clients-item {
   opacity: 0.5;
   margin-bottom: 2rem; }
