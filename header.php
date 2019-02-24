@@ -44,7 +44,9 @@
             </div>
           </nav>
           <div class="logo d-flex align-items-center">
-            <img src="<?php echo carbon_get_theme_option( 'crb_common_logo' ); ?>" alt="">
+            <a href="<?php echo home_url(); ?>">
+              <img src="<?php echo carbon_get_theme_option( 'crb_common_logo' ); ?>" alt="">
+            </a>
           </div>
           <div class="mobile-show p-absolute right-15">
             <div class="toogle-menu"></div>

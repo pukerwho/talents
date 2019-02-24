@@ -21,7 +21,9 @@
 					      </div>
 					      <div class="detail">
 					        <h3 class="mb-3"><?php the_title(); ?></h3>
+					        <?php if(carbon_get_the_post_meta('crb_services_description')): ?>
 					        <h4><?php echo carbon_get_the_post_meta('crb_services_description'); ?></h4>
+					        <?php endif ?>
 					        <!-- <span>Model</span> -->
 					      </div>
 					    </a>

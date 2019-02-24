@@ -6,7 +6,7 @@
     				<div class="logo mb-4">
     					<img src="<?php echo carbon_get_theme_option( 'crb_footer_logo' ); ?>" alt="">
     				</div>
-    				<div class="mb-4">
+    				<div class="footer-desc mb-4">
     					<?php echo carbon_get_theme_option( 'crb_footer_description' ); ?>
     				</div>
     				<div class="social-icons">
