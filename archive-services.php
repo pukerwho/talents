@@ -17,14 +17,16 @@
 			<div class="row">
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<div class="col-md-4 pb-5">
-						<div class="p_services__item">
-							<div class="p_services__item__img">
-								<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+						<a href="<?php the_permalink(); ?>">
+							<div class="p_services__item">
+								<div class="p_services__item__img">
+									<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+								</div>
+								<div class="p_services__item__title">
+									<?php the_title(); ?>
+								</div>
 							</div>
-							<div class="p_services__item__title">
-								<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-							</div>
-						</div>
+						</a>
 					</div>
 				<?php endwhile; else: ?>
 				  <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>

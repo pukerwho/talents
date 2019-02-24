@@ -3,9 +3,9 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-3">
-    				<div class="logo mb-4">
+    				<!-- <div class="logo mb-4">
     					<img src="<?php echo carbon_get_theme_option( 'crb_footer_logo' ); ?>" alt="">
-    				</div>
+    				</div> -->
     				<div class="footer-desc mb-4">
     					<?php echo carbon_get_theme_option( 'crb_footer_description' ); ?>
     				</div>
