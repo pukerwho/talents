@@ -31,17 +31,19 @@
 		</div>
 	</div>
 </div>
+<?php if(carbon_get_the_post_meta('crb_services_second')): ?>
 <div class="mb-5 py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="lead bg-light-blue p-4">
-					<?php the_content(); ?>
+					<?php echo carbon_get_the_post_meta('crb_services_second'); ?>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<?php endif ?>
 <?php endwhile; else: ?>
 	<p><?php _e('Сорямба, ничего нет.'); ?></p>
 <?php endif; ?>

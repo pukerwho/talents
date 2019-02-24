@@ -9,6 +9,7 @@ function crb_post_theme_options() {
     ->where( 'post_type', '=', 'services' )
     ->add_fields( array(
       Field::make( 'text', 'crb_services_description', __( 'Короткое описание ') ),
+      Field::make( 'rich_text', 'crb_services_second', __( 'Второй текст')),
   ) );
 }
 
