@@ -15,7 +15,7 @@
 					    >
 								<div class="buttons p-4">
 									<div class="buttons-title mb-4">
-										Hire models
+										Hire Event Staff
 									</div>
 									<div class="buttons-text lead mb-4">
 										Request the best event ambassador staff, find advertising idea or marketing solution.

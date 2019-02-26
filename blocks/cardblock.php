@@ -8,7 +8,7 @@
 							<img src="<?php bloginfo('template_url') ?>/img/maincard.jpg" alt="">	
 						</div>
 						<div class="cardblock-text px-4">
-							<span>Elite Agency</span> will find the way to promote your brand to perfection.
+							<span>Elite Agency</span> will promote your brand to perfection.
 						</div>
 					</div>
 				</div>
