@@ -55,7 +55,7 @@
     			<h2>We drive your sales</h2>	
     		</div>
     		<div class="swiper-welcome-text-next">
-    			<h2>To make people feel</h2>
+    			<h2>to make people feel</h2>
     		</div>
 		  </div>
       <video class="slider-video" onloadeddata="this.play();" playsinline autoplay="autoplay" muted loop>
