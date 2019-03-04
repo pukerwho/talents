@@ -15,7 +15,9 @@
 		<!-- begin Services List -->
 		<div class="p_services__list">
 			<div class="row">
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+				<?php 
+	          $custom_query = new WP_Query( array( 'post_type' => 'services', 'orderby' => 'menu_order' ) );
+	          if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 					<div class="col-md-4 pb-5">
 						<a href="<?php the_permalink(); ?>">
 							<div class="p_services__item">
