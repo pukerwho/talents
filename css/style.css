@@ -10655,12 +10655,21 @@ button.swiper-pagination-bullet {
   .aboutus-photo {
     right: 0; }
 
+  #talent {
+    margin-bottom: 1rem; }
+    #talent:after {
+      background-position: bottom left; }
+
   #buttons {
     padding-bottom: 0rem !important; }
+    #buttons .row {
+      margin-bottom: 0rem !important; }
 
   #clients {
     background-position: bottom left;
     padding-bottom: 3rem; }
+    #clients .container .row:last-of-type {
+      margin-bottom: 0rem !important; }
 
   .clients-grid {
     -ms-grid-columns: 50% [2];
@@ -10671,9 +10680,12 @@ button.swiper-pagination-bullet {
     margin-right: 0rem;
     margin-bottom: 1.5rem; }
 
-  footer {
+  .first-content {
+    margin-bottom: 0rem !important; }
+
+  #footer {
     padding-top: 1rem !important; }
-    footer .col-md-3 {
+    #footer .col-md-3 {
       margin-bottom: 3rem; } }
 
 /*# sourceMappingURL=style.css.map */

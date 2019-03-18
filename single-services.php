@@ -20,7 +20,7 @@
 </div>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<div class="mb-5">
+<div class="first-content mb-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
