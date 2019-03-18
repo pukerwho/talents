@@ -9120,6 +9120,13 @@ h2 {
   -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
   box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35) ж; }
 
+.modal {
+  z-index: 99999999; }
+
+.modal-dialog {
+  position: relative;
+  z-index: 99999999; }
+
 form input {
   width: 100%;
   padding: 0.5rem;
