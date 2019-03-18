@@ -10683,6 +10683,10 @@ button.swiper-pagination-bullet {
   .first-content {
     margin-bottom: 0rem !important; }
 
+  .second-content {
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5rem !important; }
+
   #footer {
     padding-top: 1rem !important; }
     #footer .col-md-3 {

@@ -32,7 +32,7 @@
 	</div>
 </div>
 <?php if(carbon_get_the_post_meta('crb_services_second')): ?>
-<div class="mb-5 py-5">
+<div class="second-content mb-5 py-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
