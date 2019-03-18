@@ -10655,6 +10655,9 @@ button.swiper-pagination-bullet {
   .aboutus-photo {
     right: 0; }
 
+  #buttons {
+    padding-bottom: 0rem !important; }
+
   #clients {
     background-position: bottom left;
     padding-bottom: 3rem; }
